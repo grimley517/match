@@ -1,4 +1,6 @@
-//
+^{
+    <#code#>
+}//
 //  ViewController.m
 //  matchismo
 //
@@ -22,6 +24,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)buttonDidGetPressed:(UIButton *)sender {
+    if (sender.titleLabel.text) {
+        sender.titleLabel.text = @"";
+        [sender.
+    } else {
+        sen
+    }
 }
 
 @end
