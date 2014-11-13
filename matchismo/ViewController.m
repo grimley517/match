@@ -1,6 +1,4 @@
-^{
-    <#code#>
-}//
+//
 //  ViewController.m
 //  matchismo
 //
@@ -9,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PlayingDeck.h"
 
 @interface ViewController ()
 
@@ -19,19 +18,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    PlayingDeck* MyDeck = [[PlayingDeck alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
+};
 - (IBAction)buttonDidGetPressed:(UIButton *)sender {
-    if (sender.titleLabel.text) {
-        sender.titleLabel.text = @"";
-        [sender.
-    } else {
-        sen
+    if ([sender.currentTitle length]) {
+        [sender setTitle: @"" forState: UIControlStateNormal];
+        [sender setBackgroundImage:[UIImage imageNamed:@"cardBack"]
+                          forState:UIControlStateNormal];
     }
-}
+    else
+    {
+        [sender setTitle:@"Hello" forState:UIControlStateNormal];
+        [sender setBackgroundImage:[UIImage imageNamed:@"cardFront"]
+                          forState:UIControlStateNormal];
+    }
+         
+};
 
 @end
