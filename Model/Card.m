@@ -12,8 +12,8 @@
 
 - (int) matchScore: (NSArray *) otherCards{
     int score = 0;
-    for (Card other in otherCards) {
-        if ([other.content isEqualToString: ]self.content) {
+    for (Card *other in otherCards) {
+        if ([other.content isEqualToString: self.content]) {
             score++;
         }
     }

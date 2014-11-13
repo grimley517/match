@@ -16,6 +16,8 @@
 		6CAA14F81A14223100882E8A /* matchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA14F71A14223100882E8A /* matchismoTests.m */; };
 		6CAA15031A14303E00882E8A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA15021A14303E00882E8A /* Card.m */; };
 		6CAA15041A14303E00882E8A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA15021A14303E00882E8A /* Card.m */; };
+		6CAA15081A14334100882E8A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA15071A14334100882E8A /* Deck.m */; };
+		6CAA15091A14334100882E8A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA15071A14334100882E8A /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6CAA14F71A14223100882E8A /* matchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matchismoTests.m; sourceTree = "<group>"; };
 		6CAA15011A14303E00882E8A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		6CAA15021A14303E00882E8A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		6CAA15061A14334100882E8A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		6CAA15071A14334100882E8A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 		6CAA15051A14304400882E8A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6CAA15061A14334100882E8A /* Deck.h */,
+				6CAA15071A14334100882E8A /* Deck.m */,
 				6CAA15011A14303E00882E8A /* Card.h */,
 				6CAA15021A14303E00882E8A /* Card.m */,
 			);
@@ -233,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CAA15081A14334100882E8A /* Deck.m in Sources */,
 				6CAA14E41A14223000882E8A /* ViewController.m in Sources */,
 				6CAA14E11A14223000882E8A /* AppDelegate.m in Sources */,
 				6CAA14DE1A14223000882E8A /* main.m in Sources */,
@@ -245,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CAA14F81A14223100882E8A /* matchismoTests.m in Sources */,
+				6CAA15091A14334100882E8A /* Deck.m in Sources */,
 				6CAA15041A14303E00882E8A /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
