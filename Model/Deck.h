@@ -7,9 +7,12 @@
 //
 
 @import Foundation;
+#import "Card.h"
 
 @interface Deck : NSObject
 
-- insertCard:(Card *) card atTop: (BOOL) top;
+- (void) insertCard:(Card *) card atTop: (BOOL) top;
+- (void) insertCard:(Card *) card;
+- (Card *) getRandomCard;
 
 @end
