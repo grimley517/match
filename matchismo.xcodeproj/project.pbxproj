@@ -140,13 +140,13 @@
 			isa = PBXGroup;
 			children = (
 				6CAA15061A14334100882E8A /* Deck.h */,
+				6CAA15071A14334100882E8A /* Deck.m */,
 				6CAA150A1A14384900882E8A /* PlayingDeck.h */,
 				6CAA150B1A14384900882E8A /* PlayingDeck.m */,
-				6CAA15071A14334100882E8A /* Deck.m */,
 				6CAA15011A14303E00882E8A /* Card.h */,
+				6CAA15021A14303E00882E8A /* Card.m */,
 				6CAA150E1A14386F00882E8A /* PlayingCard.h */,
 				6CAA150F1A14386F00882E8A /* PlayingCard.m */,
-				6CAA15021A14303E00882E8A /* Card.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
