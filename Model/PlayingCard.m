@@ -15,7 +15,8 @@
 
 @implementation PlayingCard
 
-- (NSString *) contents{
+- (NSString *) content{
+    //overrides the contents getter from card.h
     return [[PlayingCard rankStrings][self.value] stringByAppendingString: self.suit];
 }
 
@@ -38,14 +39,19 @@
     }
 }
 
+//Class Methods
 + (NSArray *) allowedSuits{
+    //Returns an array of allowable suits
     return @[@"♠️",@"♣️",@"❤︎",@"♦︎"];
 }
 + (NSArray *) rankStrings {
+    //returns an array of rankstrings
     return @[@"?",@"A",@"2", @"3",@"4", @"5", @"6", @"7", @"8", @"9", @"J",@"Q",@"K"];
 }
-+ (NSUInteger) maxRank{
-    return [[PlayingCard rankStrings] count];
+
++ (NSUInteger) maxValue{
+    //returns the number of values allowed 
+    return [[PlayingCard rankStrings] count]-1;
 }
 
 @end

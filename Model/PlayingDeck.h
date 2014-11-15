@@ -7,10 +7,8 @@
 //
 
 #import "Deck.h"
-#import "PlayingCard.h"
 
 @interface PlayingDeck : Deck
--(instancetype)init;
 
 
 @end

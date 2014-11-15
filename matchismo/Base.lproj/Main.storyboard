@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKM-Jm-OGr">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button" backgroundImage="blank card rounded corner">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
@@ -34,10 +34,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990" y="661.5"/>
+            <point key="canvasLocation" x="557" y="22"/>
         </scene>
     </scenes>
     <resources>
-        <image name="blank card rounded corner" width="64" height="96"/>
+        <image name="cardBack" width="64" height="96"/>
     </resources>
 </document>

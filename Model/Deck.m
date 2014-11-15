@@ -8,12 +8,16 @@
 
 #import "Deck.h"
 @interface Deck()
+
 @property (strong, nonatomic) NSMutableArray* cards;
+
 @end
 
 @implementation Deck
 
--(NSMutableArray *) _cards{
+-(NSMutableArray *) cards{
+    //This is a private getter for getting cards in the deck.
+    // it first checks if there is an array to place a card into,
     if (!_cards)
     {
         _cards = [[NSMutableArray alloc] init];
