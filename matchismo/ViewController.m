@@ -8,21 +8,24 @@
 
 #import "ViewController.h"
 #import "PlayingDeck.h"
+#import "PlayingCard.h"
+#import "Game.h"
 
 @interface ViewController ()
 
-@property(strong, nonatomic) Deck* deck;
+@property(strong, nonatomic) PlayingDeck* deck;
 @property(strong, nonatomic) Card* card;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *CardsOnScreen;
+@property (strong, nonatomic) Game* game;
 
 @end
 
 @implementation ViewController
 
-- (Card *) getCard{
+- (PlayingCard*) getCard{
     //Convienience method to speed up getting a card
     return [self.deck getRandomCard];
 }
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

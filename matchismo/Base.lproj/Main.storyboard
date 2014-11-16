@@ -16,25 +16,275 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKM-Jm-OGr">
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-jg-sOY">
                                 <rect key="frame" x="268" y="251" width="64" height="98"/>
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="28" width="80" height="127"/>
+                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
                                 </variation>
                                 <connections>
-                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="T2j-hZ-cxM"/>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vN1-md-d2X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52z-Bs-OP3">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="169" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2XH-9y-5ah"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcJ-1J-wxA">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="314" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gdf-X9-H7Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEl-2E-d4Q">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="112" y="28" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Pw-nL-WNc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaY-mf-ZcS">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="28" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="plt-GL-yKp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G82-Ws-a7s">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="304" y="28" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="al9-XX-760"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAi-Je-8Ot">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="112" y="169" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hbE-vd-rf6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="233-xj-QxI">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="169" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cKM-LA-R5G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsA-mI-q1b">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="304" y="169" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="obW-WG-a2I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mh6-hO-RIF">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="112" y="314" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Zw-n6-dc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DL-Vc-c2Y">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="314" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nhT-7F-Z9q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvh-VS-4yB">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="168" y="251" width="64" height="98"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="304" y="314" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dYx-wm-qbo"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="IYX-jg-sOY"/>
+                                <exclude reference="52z-Bs-OP3"/>
+                                <exclude reference="lcJ-1J-wxA"/>
+                                <exclude reference="BEl-2E-d4Q"/>
+                                <exclude reference="ZaY-mf-ZcS"/>
+                                <exclude reference="G82-Ws-a7s"/>
+                                <exclude reference="TAi-Je-8Ot"/>
+                                <exclude reference="233-xj-QxI"/>
+                                <exclude reference="EsA-mI-q1b"/>
+                                <exclude reference="mh6-hO-RIF"/>
+                                <exclude reference="8DL-Vc-c2Y"/>
+                                <exclude reference="Fvh-VS-4yB"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="IYX-jg-sOY"/>
+                                <include reference="52z-Bs-OP3"/>
+                                <include reference="lcJ-1J-wxA"/>
+                                <include reference="BEl-2E-d4Q"/>
+                                <include reference="ZaY-mf-ZcS"/>
+                                <include reference="G82-Ws-a7s"/>
+                                <include reference="TAi-Je-8Ot"/>
+                                <include reference="233-xj-QxI"/>
+                                <include reference="EsA-mI-q1b"/>
+                                <include reference="mh6-hO-RIF"/>
+                                <include reference="8DL-Vc-c2Y"/>
+                                <include reference="Fvh-VS-4yB"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outletCollection property="CardsOnScreen" destination="IYX-jg-sOY" id="0IC-9V-pxl"/>
+                        <outletCollection property="CardsOnScreen" destination="BEl-2E-d4Q" id="pPV-VR-jSe"/>
+                        <outletCollection property="CardsOnScreen" destination="ZaY-mf-ZcS" id="age-Em-Xvn"/>
+                        <outletCollection property="CardsOnScreen" destination="G82-Ws-a7s" id="aU9-QX-ReQ"/>
+                        <outletCollection property="CardsOnScreen" destination="52z-Bs-OP3" id="Bg4-aB-FWW"/>
+                        <outletCollection property="CardsOnScreen" destination="TAi-Je-8Ot" id="qt6-tx-8tG"/>
+                        <outletCollection property="CardsOnScreen" destination="233-xj-QxI" id="5uQ-v5-Ebd"/>
+                        <outletCollection property="CardsOnScreen" destination="EsA-mI-q1b" id="1HT-qj-lUz"/>
+                        <outletCollection property="CardsOnScreen" destination="lcJ-1J-wxA" id="WCZ-Zf-J9T"/>
+                        <outletCollection property="CardsOnScreen" destination="mh6-hO-RIF" id="8K2-9E-GOx"/>
+                        <outletCollection property="CardsOnScreen" destination="8DL-Vc-c2Y" id="ggX-Hw-1dS"/>
+                        <outletCollection property="CardsOnScreen" destination="Fvh-VS-4yB" id="KcE-eQ-wno"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="557" y="22"/>
+            <point key="canvasLocation" x="556.5" y="21.75"/>
         </scene>
     </scenes>
     <resources>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C7096341A1735D500D03FDB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7096331A1735D500D03FDB /* Game.m */; };
+		6C7096351A1735D500D03FDB /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7096331A1735D500D03FDB /* Game.m */; };
 		6CAA14DE1A14223000882E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA14DD1A14223000882E8A /* main.m */; };
 		6CAA14E11A14223000882E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA14E01A14223000882E8A /* AppDelegate.m */; };
 		6CAA14E41A14223000882E8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA14E31A14223000882E8A /* ViewController.m */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C7096321A1735D500D03FDB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Model/Game.h; sourceTree = "<group>"; };
+		6C7096331A1735D500D03FDB /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = Model/Game.m; sourceTree = "<group>"; };
 		6CAA14D81A14223000882E8A /* matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAA14DC1A14223000882E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CAA14DD1A14223000882E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				6CAA15021A14303E00882E8A /* Card.m */,
 				6CAA150E1A14386F00882E8A /* PlayingCard.h */,
 				6CAA150F1A14386F00882E8A /* PlayingCard.m */,
+				6C7096321A1735D500D03FDB /* Game.h */,
+				6C7096331A1735D500D03FDB /* Game.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 				6CAA15081A14334100882E8A /* Deck.m in Sources */,
 				6CAA14E41A14223000882E8A /* ViewController.m in Sources */,
 				6CAA15101A14386F00882E8A /* PlayingCard.m in Sources */,
+				6C7096341A1735D500D03FDB /* Game.m in Sources */,
 				6CAA14E11A14223000882E8A /* AppDelegate.m in Sources */,
 				6CAA150C1A14384900882E8A /* PlayingDeck.m in Sources */,
 				6CAA14DE1A14223000882E8A /* main.m in Sources */,
@@ -268,6 +275,7 @@
 				6CAA14F81A14223100882E8A /* matchismoTests.m in Sources */,
 				6CAA15091A14334100882E8A /* Deck.m in Sources */,
 				6CAA15041A14303E00882E8A /* Card.m in Sources */,
+				6C7096351A1735D500D03FDB /* Game.m in Sources */,
 				6CAA15111A14386F00882E8A /* PlayingCard.m in Sources */,
 				6CAA150D1A14384900882E8A /* PlayingDeck.m in Sources */,
 			);
@@ -320,7 +328,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -361,7 +369,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
