@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:matchismo.xcodeproj">
+      location = "self:match.xcodeproj">
    </FileRef>
 </Workspace>

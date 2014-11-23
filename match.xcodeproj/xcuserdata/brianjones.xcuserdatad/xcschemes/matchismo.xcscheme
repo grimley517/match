@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CAA14D71A14222F00882E8A"
-               BuildableName = "matchismo.app"
-               BlueprintName = "matchismo"
-               ReferencedContainer = "container:matchismo.xcodeproj">
+               BuildableName = "match.app"
+               BlueprintName = "match"
+               ReferencedContainer = "container:match.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CAA14F01A14223100882E8A"
-               BuildableName = "matchismoTests.xctest"
-               BlueprintName = "matchismoTests"
-               ReferencedContainer = "container:matchismo.xcodeproj">
+               BuildableName = "matchTests.xctest"
+               BlueprintName = "matchTests"
+               ReferencedContainer = "container:match.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CAA14F01A14223100882E8A"
-               BuildableName = "matchismoTests.xctest"
-               BlueprintName = "matchismoTests"
-               ReferencedContainer = "container:matchismo.xcodeproj">
+               BuildableName = "matchTests.xctest"
+               BlueprintName = "matchTests"
+               ReferencedContainer = "container:match.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CAA14D71A14222F00882E8A"
-            BuildableName = "matchismo.app"
-            BlueprintName = "matchismo"
-            ReferencedContainer = "container:matchismo.xcodeproj">
+            BuildableName = "match.app"
+            BlueprintName = "match"
+            ReferencedContainer = "container:match.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CAA14D71A14222F00882E8A"
-            BuildableName = "matchismo.app"
-            BlueprintName = "matchismo"
-            ReferencedContainer = "container:matchismo.xcodeproj">
+            BuildableName = "match.app"
+            BlueprintName = "match"
+            ReferencedContainer = "container:match.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CAA14D71A14222F00882E8A"
-            BuildableName = "matchismo.app"
-            BlueprintName = "matchismo"
-            ReferencedContainer = "container:matchismo.xcodeproj">
+            BuildableName = "match.app"
+            BlueprintName = "match"
+            ReferencedContainer = "container:match.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

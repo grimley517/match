@@ -1,6 +1,6 @@
 //
 //  Game.h
-//  matchismo
+//  match
 //
 //  Created by Brian on 15/11/2014.
 //  Copyright (c) 2014 Grimsoft. All rights reserved.
