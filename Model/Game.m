@@ -15,9 +15,11 @@
 @end
 
 @implementation Game
+
 static const NSUInteger MATCH_SCORE_MULTIPLIER = 4;
 static const NSUInteger TURN_PENALTY = 1;
 static const NSUInteger MISMATCH_PENALTY = 2;
+
 - (NSMutableArray*)cards{
     if (!_cards) {
         _cards =[[NSMutableArray alloc]init];
@@ -55,33 +57,32 @@ static const NSUInteger MISMATCH_PENALTY = 2;
 -(void)chooseCardAtIndex:(NSUInteger)index{
 
     Card* cardi = [self.cards objectAtIndex:index];
-    if (![cardi isMatched]){
-        if ([cardi isSelected]) {
-            cardi.selected = NO;
-        }else {
-            NSMutableArray* selectedCards = [NSMutableArray arrayWithArray:@[]];
-            for (Card* card in self.cards) {
-                if([card isSelected]){
-                    [selectedCards addObject:card];
-                }
+    NSLog(@"card at index %d Turned",index);
+    if (![cardi isMatched] && ![cardi isSelected]){
+        NSMutableArray* selectedCards = [NSMutableArray arrayWithArray:@[]];
+        for (Card* card in self.cards) {
+            if([card isSelected]){
+                //only adds selected cards already selected - the current card is not yet selected
+                [selectedCards addObject:card];
             }
-            if ([selectedCards count]){
-                self.score -= TURN_PENALTY;
-                for (Card* cardj in selectedCards) {
-                    int matchScore = [cardi matchScore:@[cardj]];
-                    if (matchScore){
-                        self.score += matchScore * MATCH_SCORE_MULTIPLIER;
-                        cardi.matched = YES;
-                        cardj.matched = YES;
-                    }else{
-                        self.score -= MISMATCH_PENALTY;
-                    }
-                }
-            }
-            
         }
-   
+        
+        if ([selectedCards count]){
+            self.score -= TURN_PENALTY;
+            for (Card* cardj in selectedCards) {
+                int matchScore = [cardi matchScore:@[cardj]];
+                if (matchScore){
+                    self.score += matchScore * MATCH_SCORE_MULTIPLIER;
+                    cardi.matched = YES;
+                    cardj.matched = YES;
+                }else{
+                    self.score -= MISMATCH_PENALTY;
+                }
+            }
+        }
+            
     }
+    cardi.selected = !cardi.isSelected;
 }
 
 

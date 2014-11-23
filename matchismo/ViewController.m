@@ -16,7 +16,7 @@
 @property (strong, nonatomic) PlayingDeck* deck;
 @property (strong, nonatomic) Card* card;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *CardsOnScreen;
-@property (strong, nonatomic) Game* game;
+@property (strong, nonatomic) Game* myGame;
 @property (weak, nonatomic) IBOutlet UILabel *ScoreLabel;
 
 @end
@@ -34,12 +34,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (Game*)game{
-    if (!_game){
-        Game *_game = [[Game alloc]initWithCardCount:[self.CardsOnScreen count]
-                                           usingDeck:[self createDeck]];
+- (Game*)myGame{
+    if (!_myGame){
+        _myGame = [[Game alloc]initWithCardCount:[self.CardsOnScreen count]
+                                     usingDeck:[self createDeck]];
     }
-    return _game;
+    return _myGame;
 }
                        
 - (Deck*) createDeck{
@@ -49,7 +49,7 @@
 - (IBAction)buttonDidGetPressed:(UIButton *)sender
 {
     int chosenButtonIndex = [self.CardsOnScreen indexOfObject:sender];
-    [self.game chooseCardAtIndex:chosenButtonIndex];
+    [self.myGame chooseCardAtIndex:chosenButtonIndex];
     [self UpdateUI];
     
 }
@@ -57,18 +57,23 @@
 -(void) UpdateUI{
     for (UIButton *cardButton in self.CardsOnScreen) {
         int index = [self.CardsOnScreen indexOfObject:cardButton];
-        Card *card = [self.game cardAtIndex:index];
+        Card *card = [self.myGame cardAtIndex:index];
         [cardButton setTitle: [self titleForCard:card] forState:UIControlStateNormal];
         [cardButton setBackgroundImage:[self backgroundForCard:card] forState:UIControlStateNormal];
         cardButton.enabled = !card.isMatched;
+        [self.ScoreLabel setText:[self scoreText]];
     }
 }
+
 -(NSString*)titleForCard:(Card *)card{
     return card.isSelected? card.content : nil;
 }
 
 -(UIImage *)backgroundForCard:(Card *)card{
     return [UIImage imageNamed: card.isSelected? @"cardFront" : @"cardBack"];
+}
+-(NSString*) scoreText{
+    return [@"Score:" stringByAppendingFormat:@" %d", [self.myGame.score]];
 }
          
 @end

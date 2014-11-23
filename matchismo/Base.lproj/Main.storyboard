@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,43 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-jg-sOY">
-                                <rect key="frame" x="268" y="251" width="64" height="98"/>
-                                <state key="normal" backgroundImage="cardBack">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="16" y="28" width="80" height="127"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
-                                </variation>
-                                <connections>
-                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vN1-md-d2X"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52z-Bs-OP3">
-                                <rect key="frame" x="268" y="251" width="64" height="98"/>
-                                <state key="normal" backgroundImage="cardBack">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="16" y="169" width="80" height="127"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
-                                </variation>
-                                <connections>
-                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2XH-9y-5ah"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcJ-1J-wxA">
                                 <rect key="frame" x="268" y="251" width="64" height="98"/>
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="16" y="314" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="471" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -62,28 +31,13 @@
                                     <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gdf-X9-H7Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEl-2E-d4Q">
-                                <rect key="frame" x="268" y="251" width="64" height="98"/>
-                                <state key="normal" backgroundImage="cardBack">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="112" y="28" width="80" height="127"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
-                                </variation>
-                                <connections>
-                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Pw-nL-WNc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G82-Ws-a7s">
                                 <rect key="frame" x="268" y="251" width="64" height="98"/>
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="299" y="28" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="296" y="196" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -97,8 +51,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="112" y="169" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="336" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -112,8 +66,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="299" y="169" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="295" y="336" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -127,8 +81,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="112" y="314" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="471" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -142,8 +96,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="299" y="314" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="295" y="471" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -168,8 +122,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="204" y="28" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="208" y="196" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -183,8 +137,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="204" y="169" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="336" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -198,8 +152,8 @@
                                 <state key="normal" backgroundImage="cardBack">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="204" y="314" width="80" height="127"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="471" width="80" height="127"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="368" y="353" width="64" height="93"/>
@@ -208,64 +162,116 @@
                                     <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nhT-7F-Z9q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52z-Bs-OP3">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="336" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2XH-9y-5ah"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP6-lI-9sA">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="295" y="61" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0gb-CX-bAb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gid-Op-Y8O">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="61" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dGC-au-A0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-jg-sOY">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="196" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vN1-md-d2X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEl-2E-d4Q">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="196" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Pw-nL-WNc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01i-hr-RZx">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="61" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DRE-iu-ITD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVJ-xU-Y1b">
+                                <rect key="frame" x="268" y="251" width="64" height="98"/>
+                                <state key="normal" backgroundImage="cardBack">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="114" y="61" width="80" height="127"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="368" y="353" width="64" height="93"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonDidGetPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BN0-86-sgK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="G82-Ws-a7s" firstAttribute="leading" secondItem="ZaY-mf-ZcS" secondAttribute="trailing" constant="18" id="0eb-9g-tBZ"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="Fvh-VS-4yB" secondAttribute="width" id="29L-cJ-MEC"/>
-                            <constraint firstItem="EsA-mI-q1b" firstAttribute="leading" secondItem="233-xj-QxI" secondAttribute="trailing" constant="18" id="2d2-mt-Wxc"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="233-xj-QxI" secondAttribute="baseline" id="3TZ-sD-P0b"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="Fvh-VS-4yB" secondAttribute="baseline" id="3Wr-He-yeg"/>
-                            <constraint firstItem="233-xj-QxI" firstAttribute="leading" secondItem="TAi-Je-8Ot" secondAttribute="trailing" constant="14" id="56F-Vh-xjt"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="ZaY-mf-ZcS" secondAttribute="baseline" id="6N8-YP-ln7"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="BEl-2E-d4Q" secondAttribute="baseline" id="7E5-Pt-W02"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="EsA-mI-q1b" secondAttribute="baseline" id="8Xb-jT-QnL"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="8DL-Vc-c2Y" secondAttribute="baseline" id="AM0-my-P7z"/>
-                            <constraint firstItem="BEl-2E-d4Q" firstAttribute="leading" secondItem="IYX-jg-sOY" secondAttribute="trailing" constant="16" id="AV1-sG-vjF"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="G82-Ws-a7s" secondAttribute="baseline" id="CMP-ho-dLg"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="mh6-hO-RIF" secondAttribute="width" id="Csy-gx-l6N"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="TAi-Je-8Ot" secondAttribute="width" id="G1w-df-mfe"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="IYX-jg-sOY" secondAttribute="baseline" id="HLK-XN-fKr"/>
-                            <constraint firstItem="ZaY-mf-ZcS" firstAttribute="leading" secondItem="BEl-2E-d4Q" secondAttribute="trailing" constant="14" id="IF7-ej-VwN"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="233-xj-QxI" secondAttribute="height" id="Ir4-9r-dgp"/>
-                            <constraint firstItem="EsA-mI-q1b" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Kpc-D6-cXq"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="mh6-hO-RIF" secondAttribute="height" id="LtK-MR-w0q"/>
-                            <constraint firstItem="G82-Ws-a7s" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="OTi-IS-XoW"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="BEl-2E-d4Q" secondAttribute="width" id="SeN-IW-F9X"/>
-                            <constraint firstItem="Fvh-VS-4yB" firstAttribute="leading" secondItem="8DL-Vc-c2Y" secondAttribute="trailing" constant="18" id="Sz1-QT-9Fs"/>
-                            <constraint firstItem="TAi-Je-8Ot" firstAttribute="leading" secondItem="52z-Bs-OP3" secondAttribute="trailing" constant="16" id="XMu-ki-yoc"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="G82-Ws-a7s" secondAttribute="height" id="XeM-r6-ov5"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="G82-Ws-a7s" secondAttribute="width" id="ZRy-AJ-ruS"/>
-                            <constraint firstItem="52z-Bs-OP3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Zuu-yo-4ZV"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="a0u-PX-7Mj"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="ZaY-mf-ZcS" secondAttribute="width" id="alk-9S-zGA"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="52z-Bs-OP3" secondAttribute="height" id="c09-iz-TcY"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="EsA-mI-q1b" secondAttribute="width" id="cBW-Hf-H54"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="BEl-2E-d4Q" secondAttribute="height" id="dEa-TH-s2I"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="IYX-jg-sOY" secondAttribute="width" id="eFL-h8-4UQ"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="mh6-hO-RIF" secondAttribute="baseline" id="fCf-pL-0Yl"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="8DL-Vc-c2Y" secondAttribute="height" id="fTJ-YS-bEN"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="52z-Bs-OP3" secondAttribute="baseline" id="fyy-M2-ICz"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="IYX-jg-sOY" secondAttribute="height" id="gca-8H-BlG"/>
-                            <constraint firstItem="mh6-hO-RIF" firstAttribute="leading" secondItem="lcJ-1J-wxA" secondAttribute="trailing" constant="16" id="gcp-Ma-GUS"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="52z-Bs-OP3" secondAttribute="width" id="hQc-ke-5ed"/>
-                            <constraint firstItem="IYX-jg-sOY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="j2D-T7-Mvi"/>
-                            <constraint firstItem="8DL-Vc-c2Y" firstAttribute="leading" secondItem="mh6-hO-RIF" secondAttribute="trailing" constant="14" id="lPL-Ki-bpM"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="8DL-Vc-c2Y" secondAttribute="width" id="moc-To-ZzG"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="ZaY-mf-ZcS" secondAttribute="height" id="pYb-QP-cm4"/>
-                            <constraint firstItem="Fvh-VS-4yB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="pcF-5E-f03"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="TAi-Je-8Ot" secondAttribute="height" id="qMu-fz-jC0"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="Fvh-VS-4yB" secondAttribute="height" id="ssk-1g-gOR"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="baseline" secondItem="TAi-Je-8Ot" secondAttribute="baseline" id="ubw-3E-qzd"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="height" secondItem="EsA-mI-q1b" secondAttribute="height" id="x8z-zB-hXg"/>
-                            <constraint firstItem="lcJ-1J-wxA" firstAttribute="width" secondItem="233-xj-QxI" secondAttribute="width" id="yAI-07-hlv"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="IYX-jg-sOY"/>
-                                <exclude reference="52z-Bs-OP3"/>
                                 <exclude reference="lcJ-1J-wxA"/>
-                                <exclude reference="BEl-2E-d4Q"/>
                                 <exclude reference="G82-Ws-a7s"/>
                                 <exclude reference="TAi-Je-8Ot"/>
                                 <exclude reference="EsA-mI-q1b"/>
@@ -275,64 +281,18 @@
                                 <exclude reference="ZaY-mf-ZcS"/>
                                 <exclude reference="233-xj-QxI"/>
                                 <exclude reference="8DL-Vc-c2Y"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="j2D-T7-Mvi"/>
-                                <exclude reference="AV1-sG-vjF"/>
-                                <exclude reference="Zuu-yo-4ZV"/>
-                                <exclude reference="XMu-ki-yoc"/>
-                                <exclude reference="IF7-ej-VwN"/>
-                                <exclude reference="56F-Vh-xjt"/>
-                                <exclude reference="0eb-9g-tBZ"/>
-                                <exclude reference="OTi-IS-XoW"/>
-                                <exclude reference="29L-cJ-MEC"/>
-                                <exclude reference="3TZ-sD-P0b"/>
-                                <exclude reference="3Wr-He-yeg"/>
-                                <exclude reference="6N8-YP-ln7"/>
-                                <exclude reference="7E5-Pt-W02"/>
-                                <exclude reference="8Xb-jT-QnL"/>
-                                <exclude reference="AM0-my-P7z"/>
-                                <exclude reference="CMP-ho-dLg"/>
-                                <exclude reference="Csy-gx-l6N"/>
-                                <exclude reference="G1w-df-mfe"/>
-                                <exclude reference="HLK-XN-fKr"/>
-                                <exclude reference="Ir4-9r-dgp"/>
-                                <exclude reference="LtK-MR-w0q"/>
-                                <exclude reference="SeN-IW-F9X"/>
-                                <exclude reference="XeM-r6-ov5"/>
-                                <exclude reference="ZRy-AJ-ruS"/>
-                                <exclude reference="a0u-PX-7Mj"/>
-                                <exclude reference="alk-9S-zGA"/>
-                                <exclude reference="c09-iz-TcY"/>
-                                <exclude reference="cBW-Hf-H54"/>
-                                <exclude reference="dEa-TH-s2I"/>
-                                <exclude reference="eFL-h8-4UQ"/>
-                                <exclude reference="fCf-pL-0Yl"/>
-                                <exclude reference="fTJ-YS-bEN"/>
-                                <exclude reference="fyy-M2-ICz"/>
-                                <exclude reference="gca-8H-BlG"/>
-                                <exclude reference="hQc-ke-5ed"/>
-                                <exclude reference="moc-To-ZzG"/>
-                                <exclude reference="pYb-QP-cm4"/>
-                                <exclude reference="qMu-fz-jC0"/>
-                                <exclude reference="ssk-1g-gOR"/>
-                                <exclude reference="ubw-3E-qzd"/>
-                                <exclude reference="x8z-zB-hXg"/>
-                                <exclude reference="yAI-07-hlv"/>
-                                <exclude reference="gcp-Ma-GUS"/>
-                                <exclude reference="2d2-mt-Wxc"/>
-                                <exclude reference="Kpc-D6-cXq"/>
-                                <exclude reference="lPL-Ki-bpM"/>
-                                <exclude reference="Sz1-QT-9Fs"/>
-                                <exclude reference="pcF-5E-f03"/>
+                                <exclude reference="52z-Bs-OP3"/>
+                                <exclude reference="pP6-lI-9sA"/>
+                                <exclude reference="Gid-Op-Y8O"/>
+                                <exclude reference="IYX-jg-sOY"/>
+                                <exclude reference="BEl-2E-d4Q"/>
+                                <exclude reference="01i-hr-RZx"/>
+                                <exclude reference="LVJ-xU-Y1b"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="IYX-jg-sOY"/>
-                                <include reference="52z-Bs-OP3"/>
                                 <include reference="lcJ-1J-wxA"/>
-                                <include reference="BEl-2E-d4Q"/>
                                 <include reference="G82-Ws-a7s"/>
                                 <include reference="TAi-Je-8Ot"/>
                                 <include reference="EsA-mI-q1b"/>
@@ -342,56 +302,13 @@
                                 <include reference="ZaY-mf-ZcS"/>
                                 <include reference="233-xj-QxI"/>
                                 <include reference="8DL-Vc-c2Y"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="j2D-T7-Mvi"/>
-                                <include reference="AV1-sG-vjF"/>
-                                <include reference="Zuu-yo-4ZV"/>
-                                <include reference="XMu-ki-yoc"/>
-                                <include reference="IF7-ej-VwN"/>
-                                <include reference="56F-Vh-xjt"/>
-                                <include reference="0eb-9g-tBZ"/>
-                                <include reference="OTi-IS-XoW"/>
-                                <include reference="29L-cJ-MEC"/>
-                                <include reference="3TZ-sD-P0b"/>
-                                <include reference="3Wr-He-yeg"/>
-                                <include reference="6N8-YP-ln7"/>
-                                <include reference="7E5-Pt-W02"/>
-                                <include reference="8Xb-jT-QnL"/>
-                                <include reference="AM0-my-P7z"/>
-                                <include reference="CMP-ho-dLg"/>
-                                <include reference="Csy-gx-l6N"/>
-                                <include reference="G1w-df-mfe"/>
-                                <include reference="HLK-XN-fKr"/>
-                                <include reference="Ir4-9r-dgp"/>
-                                <include reference="LtK-MR-w0q"/>
-                                <include reference="SeN-IW-F9X"/>
-                                <include reference="XeM-r6-ov5"/>
-                                <include reference="ZRy-AJ-ruS"/>
-                                <include reference="a0u-PX-7Mj"/>
-                                <include reference="alk-9S-zGA"/>
-                                <include reference="c09-iz-TcY"/>
-                                <include reference="cBW-Hf-H54"/>
-                                <include reference="dEa-TH-s2I"/>
-                                <include reference="eFL-h8-4UQ"/>
-                                <include reference="fCf-pL-0Yl"/>
-                                <include reference="fTJ-YS-bEN"/>
-                                <include reference="fyy-M2-ICz"/>
-                                <include reference="gca-8H-BlG"/>
-                                <include reference="hQc-ke-5ed"/>
-                                <include reference="moc-To-ZzG"/>
-                                <include reference="pYb-QP-cm4"/>
-                                <include reference="qMu-fz-jC0"/>
-                                <include reference="ssk-1g-gOR"/>
-                                <include reference="ubw-3E-qzd"/>
-                                <include reference="x8z-zB-hXg"/>
-                                <include reference="yAI-07-hlv"/>
-                                <include reference="gcp-Ma-GUS"/>
-                                <include reference="2d2-mt-Wxc"/>
-                                <include reference="Kpc-D6-cXq"/>
-                                <include reference="lPL-Ki-bpM"/>
-                                <include reference="Sz1-QT-9Fs"/>
-                                <include reference="pcF-5E-f03"/>
+                                <include reference="52z-Bs-OP3"/>
+                                <include reference="pP6-lI-9sA"/>
+                                <include reference="Gid-Op-Y8O"/>
+                                <include reference="IYX-jg-sOY"/>
+                                <include reference="BEl-2E-d4Q"/>
+                                <include reference="01i-hr-RZx"/>
+                                <include reference="LVJ-xU-Y1b"/>
                             </mask>
                         </variation>
                     </view>
