@@ -43,6 +43,7 @@
 		6C3E56461A22A0660068B678 /* decktests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = decktests.m; sourceTree = "<group>"; };
 		6C3E56481A22A09E0068B678 /* cardtests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cardtests.m; sourceTree = "<group>"; };
 		6C3E564A1A22A4AA0068B678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C3E564E1A22ABE60068B678 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C7096321A1735D500D03FDB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Model/Game.h; sourceTree = "<group>"; };
 		6C7096331A1735D500D03FDB /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = Model/Game.m; sourceTree = "<group>"; };
 		6CAA14D81A14223000882E8A /* match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = match.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +93,7 @@
 			children = (
 				6C3E564A1A22A4AA0068B678 /* Foundation.framework */,
 				6CAA15051A14304400882E8A /* Model */,
-				6CAA14DA1A14223000882E8A /* matchismo */,
+				6CAA14DA1A14223000882E8A /* match */,
 				6CAA14F41A14223100882E8A /* matchismoTests */,
 				6CAA14D91A14223000882E8A /* Products */,
 			);
@@ -107,7 +108,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6CAA14DA1A14223000882E8A /* matchismo */ = {
+		6CAA14DA1A14223000882E8A /* match */ = {
 			isa = PBXGroup;
 			children = (
 				6CAA14E21A14223000882E8A /* ViewController.h */,
@@ -117,6 +118,7 @@
 				6CAA14EA1A14223100882E8A /* LaunchScreen.xib */,
 				6CAA14DB1A14223000882E8A /* Supporting Files */,
 			);
+			name = match;
 			path = matchismo;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6CAA14E61A14223000882E8A /* Base */,
+				6C3E564E1A22ABE60068B678 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

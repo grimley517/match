@@ -334,6 +334,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cardBack" width="64" height="96"/>
+        <image name="cardBack" width="188" height="268"/>
     </resources>
 </document>
