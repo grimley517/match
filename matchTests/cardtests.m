@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Grimsoft. All rights reserved.
 //
 
-@import UIKit;
 @import XCTest;
 #import "Card.h"
 
