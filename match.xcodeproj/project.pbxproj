@@ -25,8 +25,9 @@
 		6CAA15101A14386F00882E8A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA150F1A14386F00882E8A /* PlayingCard.m */; };
 		6CAA15111A14386F00882E8A /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA150F1A14386F00882E8A /* PlayingCard.m */; };
 		6CC77B4E1A23523400B146DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC77B4D1A23523400B146DB /* Default-568h@2x.png */; };
-		6CC77B4F1A23547600B146DB /* cardtests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3E56481A22A09E0068B678 /* cardtests.m */; };
-		6CC77B501A23549600B146DB /* decktests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3E56461A22A0660068B678 /* decktests.m */; };
+		6CC77B4F1A23547600B146DB /* CardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3E56481A22A09E0068B678 /* CardTests.m */; };
+		6CC77B501A23549600B146DB /* DeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3E56461A22A0660068B678 /* DeckTests.m */; };
+		6CC77B521A23561500B146DB /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC77B511A23561500B146DB /* GameTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C3E56461A22A0660068B678 /* decktests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = decktests.m; path = matchTests/decktests.m; sourceTree = "<group>"; };
-		6C3E56481A22A09E0068B678 /* cardtests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cardtests.m; path = matchTests/cardtests.m; sourceTree = "<group>"; };
+		6C3E56461A22A0660068B678 /* DeckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeckTests.m; path = matchTests/DeckTests.m; sourceTree = "<group>"; };
+		6C3E56481A22A09E0068B678 /* CardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardTests.m; path = matchTests/CardTests.m; sourceTree = "<group>"; };
 		6C3E564A1A22A4AA0068B678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6C3E564E1A22ABE60068B678 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C7096321A1735D500D03FDB /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Model/Game.h; sourceTree = "<group>"; };
@@ -57,7 +58,7 @@
 		6CAA14E81A14223100882E8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CAA14EB1A14223100882E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6CAA14F11A14223100882E8A /* matchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = matchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CAA14F61A14223100882E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CAA14F61A14223100882E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = matchTests/Info.plist; sourceTree = "<group>"; };
 		6CAA15011A14303E00882E8A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
 		6CAA15021A14303E00882E8A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		6CAA15061A14334100882E8A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		6CAA150E1A14386F00882E8A /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
 		6CAA150F1A14386F00882E8A /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		6CC77B4D1A23523400B146DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6CC77B511A23561500B146DB /* GameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameTests.m; path = matchTests/GameTests.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 				6C3E564A1A22A4AA0068B678 /* Foundation.framework */,
 				6CAA15051A14304400882E8A /* Model */,
 				6CAA14DA1A14223000882E8A /* match */,
-				6CAA14F41A14223100882E8A /* matchiTests */,
+				6CAA14F41A14223100882E8A /* matchTests */,
 				6CAA14D91A14223000882E8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,8 +121,7 @@
 				6CAA14EA1A14223100882E8A /* LaunchScreen.xib */,
 				6CAA14DB1A14223000882E8A /* Supporting Files */,
 			);
-			name = match;
-			path = matchismo;
+			path = match;
 			sourceTree = "<group>";
 		};
 		6CAA14DB1A14223000882E8A /* Supporting Files */ = {
@@ -134,14 +135,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6CAA14F41A14223100882E8A /* matchiTests */ = {
+		6CAA14F41A14223100882E8A /* matchTests */ = {
 			isa = PBXGroup;
 			children = (
-				6C3E56481A22A09E0068B678 /* cardtests.m */,
-				6C3E56461A22A0660068B678 /* decktests.m */,
+				6C3E56481A22A09E0068B678 /* CardTests.m */,
+				6C3E56461A22A0660068B678 /* DeckTests.m */,
+				6CC77B511A23561500B146DB /* GameTests.m */,
 				6CAA14F51A14223100882E8A /* Supporting Files */,
 			);
-			name = matchiTests;
+			name = matchTests;
 			path = matchismoTests;
 			sourceTree = "<group>";
 		};
@@ -286,9 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CC77B501A23549600B146DB /* decktests.m in Sources */,
-				6CC77B4F1A23547600B146DB /* cardtests.m in Sources */,
+				6CC77B501A23549600B146DB /* DeckTests.m in Sources */,
+				6CC77B4F1A23547600B146DB /* CardTests.m in Sources */,
 				6CAA15091A14334100882E8A /* Deck.m in Sources */,
+				6CC77B521A23561500B146DB /* GameTests.m in Sources */,
 				6CAA15041A14303E00882E8A /* Card.m in Sources */,
 				6C7096351A1735D500D03FDB /* Game.m in Sources */,
 				6CAA15111A14386F00882E8A /* PlayingCard.m in Sources */,
