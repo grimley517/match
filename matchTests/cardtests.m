@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Grimsoft. All rights reserved.
 //
 
-@import XCTest;
+#import <UIKit/UIKit.h>
+#import <XCTest/XCTest.h>
 #import "Card.h"
 
 @interface cardtests : XCTestCase
@@ -33,10 +34,6 @@
     XCTAssertEqual(TestCard.isSelected, NO, @"TestCard Created Selected");
     XCTAssertEqual(TestCard.isMatched, NO, @"TestCard Created Matched");
     XCTAssertEqual(TestCard.content, @"a", @"TestCard Created with Wrong Content");
-}
-
-- (void)test2{
-    
 }
 
 @end

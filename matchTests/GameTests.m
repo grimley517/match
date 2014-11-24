@@ -1,20 +1,19 @@
 //
-//  decktests.m
+//  GameTests.m
 //  match
 //
 //  Created by Brian on 24/11/2014.
 //  Copyright (c) 2014 Grimsoft. All rights reserved.
 //
 
-#import "Deck.h"
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface decktests : XCTestCase
+@interface GameTests : XCTestCase
 
 @end
 
-@implementation decktests
+@implementation GameTests
 
 - (void)setUp {
     [super setUp];
