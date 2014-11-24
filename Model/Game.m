@@ -57,7 +57,7 @@ static const NSUInteger MISMATCH_PENALTY = 2;
 -(void)chooseCardAtIndex:(NSUInteger)index{
 
     Card* cardi = [self.cards objectAtIndex:index];
-    NSLog(@"card at index %d Turned",index);
+    NSLog(@"card at index %d Turned",(int)index);
     if (![cardi isMatched] && ![cardi isSelected]){
         NSMutableArray* selectedCards = [NSMutableArray arrayWithArray:@[]];
         for (Card* card in self.cards) {
