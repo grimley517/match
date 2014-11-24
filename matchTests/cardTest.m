@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Card.h"
 
 @interface cardTest : XCTestCase
 
@@ -25,16 +26,29 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)test2 {
+    // Matching checks on card class
+    NSArray* contents = @[@"a", @"b", @"apple"];
+    NSMutableArray* OtherCards = [NSMutableArray arrayWithArray: @[]];//will contain other cards
+    Card* testCard = [[Card alloc] init];
+    testCard.content = @"a";
+    for (NSString* cardContent in contents){
+        Card* otherCard = [[Card alloc] init];
+        otherCard.content = cardContent;
+        [OtherCards addObject:otherCard];
+    }
+    NSMutableArray* matchScores = [NSMutableArray arrayWithArray:@[]];
+    for (int i = 0; i<[OtherCards count];i++){
+        int score =[testCard matchScore:@[OtherCards[i]]];
+        [matchScores addObject:[NSNumber numberWithInt:score]];
+    }
+    NSArray* ExpectedScores = @[@1,@0,@0];
+    for (int i = 0; i<[matchScores count];i++){
+        XCTAssertEqual(matchScores[i], ExpectedScores[i], @"The score at index %d didnt macth up", i);
+    }
+        
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
+
 
 @end

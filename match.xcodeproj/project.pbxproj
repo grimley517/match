@@ -27,6 +27,7 @@
 		6CC77B4E1A23523400B146DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC77B4D1A23523400B146DB /* Default-568h@2x.png */; };
 		6CC77B521A23561500B146DB /* GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC77B511A23561500B146DB /* GameTests.m */; };
 		6CC77B561A23E2A200B146DB /* cardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC77B551A23E2A200B146DB /* cardTest.m */; };
+		6CC77B571A23F27400B146DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3E564A1A22A4AA0068B678 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC77B571A23F27400B146DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				6CC77B511A23561500B146DB /* GameTests.m */,
-				6CAA14F51A14223100882E8A /* Supporting Files */,
 				6CC77B551A23E2A200B146DB /* cardTest.m */,
+				6CAA14F51A14223100882E8A /* Supporting Files */,
 			);
 			name = matchTests;
 			path = matchismoTests;
@@ -329,7 +331,7 @@
 		6CAA14F91A14223100882E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +362,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/brianjones/Projects/match/match/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = /Users/brianjones/Projects/match/match/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,7 +374,7 @@
 		6CAA14FA1A14223100882E8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -395,6 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/brianjones/Projects/match/match/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = matchismo/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/match/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = match;
 			};
@@ -417,7 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = matchismo/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/match/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = match;
 			};
